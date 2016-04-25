@@ -1,6 +1,8 @@
-### Buildbot install on Ubuntu 16.04 (Xenial Xerus) - PPC64 Little-endian
+## Buildbot master/slave on Ubuntu 16.04 (Xenial Xerus) - PPC64 Little-endian
 
 > Note: adapted from http://docs.buildbot.net/current/tutorial/firstrun.html
+
+### Install
 
 ```sh
 sudo apt-get install python-dev
