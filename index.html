@@ -1,17 +1,23 @@
-<html>
-
-<h3> Buildbot install on Ubuntu 16.04 (Xenial Xerus) - PPC64 Little-endian </h3>
-
-Note: taken from http://docs.buildbot.net/current/tutorial/firstrun.html
-
-sudo apt-get install python-dev
-
-mkdir -p /tmp/buildbot && cd /tmp/buildbot
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h3 id="buildbot-install-on-ubuntu-16.04-xenial-xerus---ppc64-little-endian">Buildbot install on Ubuntu 16.04 (Xenial Xerus) - PPC64 Little-endian</h3>
+<blockquote>
+<p>Note: adapted from http://docs.buildbot.net/current/tutorial/firstrun.html</p>
+</blockquote>
+<pre class="sh"><code>sudo apt-get install python-dev
+mkdir -p /tmp/buildbot &amp;&amp; cd /tmp/buildbot
 sudo apt-get install virtualenv
 virtualenv --no-site-packages sandbox
 source sandbox/bin/activate
 easy_install sqlalchemy==0.7.10
-easy_install buildbot
-
-
+easy_install buildbot</code></pre>
+</body>
 </html>
