@@ -18,11 +18,18 @@
 </blockquote>
 <h3 id="install">Install</h3>
 <pre class="sh"><code>sudo apt-get install python-dev
+sudo apt-get install python-pip
 mkdir -p /tmp/buildbot &amp;&amp; cd /tmp/buildbot
 sudo apt-get install virtualenv
 virtualenv --no-site-packages sandbox
 source sandbox/bin/activate
 easy_install sqlalchemy==0.7.10
-easy_install buildbot</code></pre>
+easy_install buildbot
+pip install buildbot-www
+pip install buildbot-waterfall-view
+pip install buildbot-console-view
+easy_install buildbot-slave
+buildslave create-slave slave localhost:9989 example-worker pass
+buildslave start slave</code></pre>
 </body>
 </html>

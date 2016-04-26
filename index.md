@@ -16,4 +16,7 @@ easy_install buildbot
 pip install buildbot-www
 pip install buildbot-waterfall-view
 pip install buildbot-console-view
+easy_install buildbot-slave
+buildslave create-slave slave localhost:9989 example-worker pass
+buildslave start slave
 ```
