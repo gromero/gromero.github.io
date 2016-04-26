@@ -20,3 +20,9 @@ easy_install buildbot-slave
 buildslave create-slave slave localhost:9989 example-worker pass
 buildslave start slave
 ```
+
+### SCM
+
+```sh
+sudo apt-get install git mercurial
+```
