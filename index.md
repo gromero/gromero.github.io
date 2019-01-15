@@ -1,28 +1,25 @@
-## Buildbot master/slave on Ubuntu 16.04 (Xenial Xerus) - PPC64 Little-endian
+# Casamento Mi & Gu
 
-> Note: adapted from http://docs.buildbot.net/current/tutorial/firstrun.html
+Pessoas queridas, abaixo estão algumas sugestões de presentes caso queiram nos presentear com algo a mais além da presença de vocês no nosso casamento.
 
-### Install
+Os itens abaixo são sugestões, mas como vamos viajar também pode ser qualquer quantia em dinheiro ou mesmo itens repetidos :-)
 
-```sh
-sudo apt-get install python-dev
-sudo apt-get install python-pip
-mkdir -p /tmp/buildbot && cd /tmp/buildbot
-sudo apt-get install virtualenv
-virtualenv --no-site-packages sandbox
-source sandbox/bin/activate
-easy_install sqlalchemy==0.7.10
-easy_install buildbot
-pip install buildbot-www
-pip install buildbot-waterfall-view
-pip install buildbot-console-view
-easy_install buildbot-slave
-buildslave create-slave slave localhost:9989 example-worker pass
-buildslave start slave
+## Itens
+
+* 2 bolas de um ótimo sorvete - **R$ 30,00**
+* Água de coco / açaí na praia, com direito de repetir se estiver muito quente - **R$ 50,00**
+* Almoço maravilha na beira da praia - **R$ 100,00**
+* Passeio(s) de barco - **R$ 150,00**
+* Jantar romântico à luz de velas - **R$ 200,00**
+* Aulas intensivas de surf a dois, pra ficar profissional _mesmo_ - **R$ 500,00**
+
+...ou o valor que você quiser!
+
+## Dados para depósito
+
 ```
-
-### SCM
-
-```sh
-sudo apt-get install git mercurial
+Banco Santander
+Ag.: 3831
+CC : 01089565-5
+CPF: 366305968-54
 ```
