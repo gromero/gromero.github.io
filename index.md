@@ -20,10 +20,8 @@ qualquer quantia em dinheiro ou mesmo itens repetidos :-)
 
 ## Dados para transferência do presente
 
-###
-```
-Banco Santander
-Ag.: 3831
-CC : 01089565-5
-CPF: 366305968-54
-```
+> Banco Santander  
+> Ag.: 3831  
+> CC : 01089565-5  
+> CPF: 366305968-54  
+
