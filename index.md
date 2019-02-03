@@ -25,3 +25,4 @@ qualquer quantia em dinheiro ou mesmo itens repetidos :-)
 > CC : 01089565-5  
 > CPF: 366305968-54  
 
+Avise-nos via WhatsApp caso faça o depósito ;-)
